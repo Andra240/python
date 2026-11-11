@@ -1,0 +1,31 @@
+#andra 11.11.26
+
+#rõngad
+import turtle
+
+aken = turtle.Screen()
+aken.setup(width=500, height=400)
+aken.bgcolor("lightblue")
+aken.title("andra-olümpiarõngad")
+
+##liigutan 
+turtle.speed(0)
+turtle.up()
+turtle.goto(-150,50)
+turtle.down()
+
+##ring1
+turtle.pensize(6)
+turtle.pencolor("blue")
+turtle.circle(50)
+turtle.up()
+turtle.goto(-30,50)
+turtle.down()
+
+##ring2
+turtle.pensize(6)
+turtle.pencolor("black")
+turtle.circle(50)
+
+
+turtle.done()
