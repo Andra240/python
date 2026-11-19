@@ -3,7 +3,7 @@ import turtle
 # Aken
 ekraan = turtle.Screen()
 ekraan.setup(500, 500)
-ekraan.title("Markus - Sinilill")
+ekraan.title("Andra - Sinilill")
 
 # Kilpkonn
 t = turtle.Turtle()
@@ -16,7 +16,7 @@ t.penup()
 t.goto(0, -120)
 t.pendown()
 t.setheading(90)
-t.forward(180)
+t.forward(190)
 
 # Leht
 t.penup()
@@ -30,7 +30,7 @@ t.end_fill()
 
 # Õis
 t.penup()
-t.goto(50, 120)
+t.goto(45, 120)
 t.pendown()
 t.color("blue", "lightblue")
 t.begin_fill()
